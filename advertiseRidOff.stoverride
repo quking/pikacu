@@ -23,5 +23,3 @@ http:
     - ^https?:\/\/rayjump\.com\/ - reject
     - ^https?:\/\/adsmoloco\.com\/ - reject
     - ^https?:\/\/adsmoloco\.com\/ - reject    
-    
-    
