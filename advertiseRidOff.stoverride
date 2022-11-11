@@ -6,9 +6,11 @@ http:
     - "*.tapjoy.com"
     - "*.applovin.com"
     - "*.applvn.com"
+    - "*.supersonicads.com"
     
   rewrite:
     - ^https?:\/\/tapjoy\.com\/ - reject
     - ^https?:\/\/adtapjoy\.com\/ - reject
     - ^https?:\/\/applovin\.com\/ - reject
     - ^https?:\/\/applvn\.com\/ - reject
+    - ^https?:\/\/supersonicads\.com\/ - reject
