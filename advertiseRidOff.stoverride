@@ -1,6 +1,6 @@
-name: 游戏去广告
-desc: tapjoy游戏去广告
-    
+name: 我的去广告
+desc: 我的重写去广告
+
 http:
   force-http-engine:
     - "*.ott.cibntv.net"
@@ -10,7 +10,6 @@ http:
     - "weibointl.api.weibo.cn"
     - "wmapi.meituan.com"
   mitm:
-    - "*.tapjoy.com"
     - "*.58cdn.com.cn"
     - "*.bebi.com"
     - "*.club"
@@ -364,8 +363,6 @@ http:
     - "zone.guiderank-app.com"
 
   rewrite:
-    - ^https?:\/\/tapjoy\.com\/ - reject
-    - ^https?:\/\/adtapjoy\.com\/ - reject
     - ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
@@ -777,4 +774,3 @@ rules:
   - DOMAIN,api.cupid.dns.iqiyi.com,REJECT
   - DOMAIN,video-ad.sm.cn,REJECT
   - DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
- 
