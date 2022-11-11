@@ -22,7 +22,5 @@ http:
     - ^https?://sg01-cdn-tk\.rayjump\.com\/ - reject
     - ^https?:\/\/rayjump\.com\/ - reject
     - ^https?:\/\/adsmoloco\.com\/ - reject
-    - ^https?:\/\/adsmoloco\.com\/ - reject
-    - *.applvn.com - reject
-    
+    - ^https?:\/\/adsmoloco\.com\/ - reject    
     
