@@ -1,0 +1,9 @@
+name: 游戏去广告
+desc: tapjoy游戏去广告
+
+http:
+  mitm:
+    - "*.tapjoy.com"
+  rewrite:
+    - ^https?:\/\/tapjoy\.com\/ - reject
+    - ^https?:\/\/adtapjoy\.com\/ - reject
