@@ -14,3 +14,4 @@ http:
     - ^https?:\/\/applovin\.com\/ - reject
     - ^https?:\/\/applvn\.com\/ - reject
     - ^https?:\/\/supersonicads\.com\/ - reject
+    - ^https?://prod-ms\.applovin\.com\/ - reject
