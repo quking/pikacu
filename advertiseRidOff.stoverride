@@ -7,6 +7,8 @@ http:
     - "*.applovin.com"
     - "*.applvn.com"
     - "*.supersonicads.com"
+    - "*.rayjump.com"
+    
     
   rewrite:
     - ^https?:\/\/tapjoy\.com\/ - reject
@@ -15,3 +17,10 @@ http:
     - ^https?:\/\/applvn\.com\/ - reject
     - ^https?:\/\/supersonicads\.com\/ - reject
     - ^https?://prod-ms\.applovin\.com\/ - reject
+    - ^https?://play\.rayjump\.com\/ - reject
+    - ^https?://adx-tk\.rayjump\.com\/ - reject
+    - ^https?://sg01-cdn-tk\.rayjump\.com\/ - reject
+    - ^https?:\/\/rayjump\.com\/ - reject
+    - ^https?:\/\/adsmoloco\.com\/ - reject
+    
+    
